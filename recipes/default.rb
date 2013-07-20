@@ -11,6 +11,7 @@ group node[:general][:group] do
   append true
 end
 
+include_recipe 'git'
 include_recipe 'nginx'
 include_recipe 'chruby::system'
 include_recipe 'database::postgresql'
