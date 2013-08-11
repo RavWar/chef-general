@@ -13,5 +13,10 @@ end
 
 include_recipe 'git'
 include_recipe 'nginx'
+
+nginx_site 'default' do
+  enable false
+end
+
 include_recipe 'chruby::system'
 include_recipe 'database::postgresql'
