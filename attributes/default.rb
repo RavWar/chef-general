@@ -3,4 +3,3 @@ default[:chruby][:default] = '2.0.0-p247'
 
 default[:general][:user]     = 'ror'
 default[:general][:group]    = 'ror'
-default[:general][:password] = '$1$Y8galwgH$WpKVSr/yLaw03gmNCf5Dk/'

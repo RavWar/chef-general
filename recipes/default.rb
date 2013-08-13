@@ -1,7 +1,6 @@
 include_recipe 'user'
 
 user_account node[:general][:user] do
-  password node[:general][:password]
   system_user true
   gid 'sudo'
 end
